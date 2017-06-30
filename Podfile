@@ -1,4 +1,4 @@
-platform :ios, '6.0'
+platform :ios, '9.3'
 
 pod 'OpenSSL-Universal', :git => 'https://github.com/krzak/OpenSSL.git', :branch => :master
 
