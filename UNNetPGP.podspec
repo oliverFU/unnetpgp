@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/oliverFU/unnetpgp.git', :tag => "v#{s.version}" }
   s.requires_arc = true
 
- # s.dependency 'OpenSSL-Universal'
+  s.dependency 'OpenSSL-Universal'
 
   s.libraries = 'bz2', 'z'
   
